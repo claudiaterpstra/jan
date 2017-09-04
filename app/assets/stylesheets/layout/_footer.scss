@@ -1,0 +1,37 @@
+.footer {
+  padding: 50px;
+  color: #FAF7EE;
+  background-color: #232323;
+  text-align: center;
+  z-index: 300;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: space-around;
+  align-items: flex-start;
+    p {
+    font-size: 14px;
+  }
+}
+
+.footer-details ul {
+  list-style-type: none;
+  text-align: left;
+  font-size: 12px;
+  margin: 1px;
+}
+
+.footer-icons i {
+  margin-right: 10px;
+  color: white;
+  font-size: 20px;
+
+  &:hover {
+    color: #AB2B2B;
+    cursor: pointer;
+    cursor: hand;
+  }
+}

@@ -24,17 +24,18 @@
 }
 
 .wrapper-grey {
-  height: 150vh;
   background-color: #f9f9f9;
   text-align: center;
   position: relative;
   margin-top: -230px;
   padding-top: 200px;
+  padding-bottom: 100px;
   z-index: -1;
 }
 
 .information {
-  padding-top: 80px;
+  padding-top: 40px;
+  padding-bottom: 80px;
 }
 
 .card {
@@ -47,4 +48,9 @@
       margin-top: 10px;
       margin-left: 10px;
     }
+}
+
+.information-row {
+  padding-top: 80px;
+  padding-bottom: 20px;
 }
