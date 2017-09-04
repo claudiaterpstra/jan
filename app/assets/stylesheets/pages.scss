@@ -1,0 +1,50 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.banner {
+  color: white;
+  text-align: center;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  height: 80vh;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+.banner p {
+  font-size: 20px;
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 20px;
+}
+
+.wrapper-grey {
+  height: 150vh;
+  background-color: #f9f9f9;
+  text-align: center;
+  position: relative;
+  margin-top: -230px;
+  padding-top: 200px;
+  z-index: -1;
+}
+
+.information {
+  padding-top: 80px;
+}
+
+.card {
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: lightgrey;
+    p{
+      text-align: left;
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+}
