@@ -61,9 +61,59 @@
       color: grey;
       padding-bottom: 10px;
     }
+    padding-bottom: 20px;
 }
 
 .information-row {
   padding-top: 80px;
   padding-bottom: 10px;
+}
+
+.btn-card {
+  background-color: grey;
+  color: white;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 20px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.box-text {
+  padding-left: 20px;
+}
+
+.box-last {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+  margin-top: 20px;
+}
+
+.piano-box {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.last-paragraph {
+  margin-bottom: 50px;
 }
