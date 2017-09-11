@@ -1,9 +1,27 @@
 <div class="container">
   <h2>Contact</h2>
-  <%= simple_form_for @contact, class: 'form-horizontal' do |f| %>
-  <%= f.input :name, :required => true %>
-  <%= f.input :email, :required => true %>
-  <%= f.input :message, :as => :text, :required => false, :input_html => {:rows => 10} %>
-  <%= f.submit "Versturen", class: 'btn btn-primary' %>
-  <% end %>
+  <div class="contact-information">
+    <ul>Jan Terpstra</ul>
+    <ul>Pastoor Gillisstraat 114</ul>
+    <ul>5121 CG</ul>
+    <ul>Rijen</ul>
+    <br>
+    <ul>+31 6 39777370</ul>
+    <ul>info@didjeridu.nl</ul>
+  </div>
+  <div class="form">
+    <div class="row">
+      <div class="col-xs-12 col-sm-8">
+  <p class="paragraph-bold">Wil je meer information over lesesn, dirigeren of wil je mij boeken voor een
+  didjeridu optreden, stuur dan even een berichtje</p>
+
+        <%= simple_form_for @contact, class: 'form-horizontal' do |f| %>
+        <%= f.input :naam, :required => true %>
+        <%= f.input :email, :required => true %>
+        <%= f.input :bericht, :as => :text, :required => false, :input_html => {:rows => 8} %>
+        <%= f.submit "Versturen", class: 'btn btn-primary' %>
+        <% end %>
+      </div>
+    </div>
+  </div>
 </div>
