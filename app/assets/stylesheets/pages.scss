@@ -111,18 +111,20 @@
 .piano-box {
   display: flex;
   align-items: center;
-  margin-right: 15px;
+    p {
+  margin-right: 70px;
+    }
 }
 
 .last-paragraph {
-  margin-top: 50px;
+  margin-top: 40px;
   margin-bottom: 50px;
 }
 
 .paragraph-bold {
   font-weight: bold;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .form {
@@ -133,3 +135,27 @@
   margin: 0px;
 }
 
+.bulletlist {
+  margin-top: 20px;
+  li {
+    font-size: 14px;
+    margin-bottom: 15px;
+    list-style-type: circle;
+  }
+}
+
+.didjeridu-paragraph {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   p {
+  margin-right: 70px;
+    }
+    img {
+      margin-right: 10px;
+    }
+}
+
+.last-paragraph-didjeridu {
+  margin-bottom: 50px;
+}
