@@ -1,8 +1,8 @@
-# Load the Rails application.
-# require_relative 'application'
+Load the Rails application.
+require_relative 'application'
 
-# # Initialize the Rails application.
-# Rails.application.initialize!
+# Initialize the Rails application.
+Rails.application.initialize!
 
 # config.action_mailer.smtp_settings = {
 #   :address => 'smtp.gmail.com',
