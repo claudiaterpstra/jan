@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get 'koor', to: 'pages#koor'
   get 'piano', to: 'pages#piano'
   get 'didjeridu', to: 'pages#didjeridu'
+  get 'agenda', to: 'pages#agenda'
 
   resources "contacts", only: [:new, :create]
 end

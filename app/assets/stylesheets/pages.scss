@@ -90,6 +90,27 @@
   text-decoration: none;
 }
 
+.btn-agenda {
+  background-color: #337ab7;
+  color: white;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 20px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
 .box {
   display: flex;
   align-items: center;
@@ -158,4 +179,25 @@
 
 .last-paragraph-didjeridu {
   margin-bottom: 50px;
+}
+
+.agenda-card {
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: lightgrey;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 40px 20px 40px 20px;
+  text-align: center;
+    h4 {
+      margin-bottom: 20px;
+    }
+}
+
+.date {
+  font-weight: bold;
+  p {
+  margin: 0px 0 0px;
+  }
 }
