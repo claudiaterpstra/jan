@@ -11,16 +11,17 @@
   align-items: center;
   justify-content: center;
 }
-.banner h1 {
-  font-size: 38px;
-  font-weight: bold;
+
+.banner-content {
+  text-align: center;
+  color: grey;
+   h1 {
+  font-size: 28px;
   text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
-}
-.banner p {
-  font-size: 20px;
-  font-weight: lighter;
-  color: rgba(255, 255, 255, 0.7);
-  margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 24px;
+  }
 }
 
 .wrapper-grey {
@@ -50,9 +51,9 @@
   border-style: solid;
   border-width: 0.5px;
   border-color: lightgrey;
-    p{
+    ul {
       text-align: left;
-      margin-top: 10px;
+      margin-top: 15px;
       margin-left: 10px;
       color: grey;
       padding-bottom: 10px;
@@ -200,4 +201,8 @@
   p {
   margin: 0px 0 0px;
   }
+}
+
+.last-li {
+  color: white;
 }
