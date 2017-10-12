@@ -15,8 +15,12 @@
 
 @media only screen and (max-width: 479px) {
     .banner {
-    height: 80vh;
-    width: 100% }
+    background-size: 100% 100%;
+    background-position: contain;
+    background-size: cover !important;
+    background-attachment:scroll;
+    height: auto;
+     }
 }
 
 .banner-content {
