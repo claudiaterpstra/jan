@@ -5,11 +5,18 @@
   color: white;
   text-align: center;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  width: 100%;
   height: 80vh;
   background-size: cover !important;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media only screen and (max-width: 479px) {
+    .banner {
+      height: auto;
+      width: auto }
 }
 
 .banner-content {
