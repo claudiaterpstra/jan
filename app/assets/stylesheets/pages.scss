@@ -20,7 +20,12 @@
   }
 
   .banner-content {
-    margin-top: 50vh;
+    h1 {
+    visibility: hidden;
+    }
+    h2 {
+      visibility: hidden;
+    }
   }
 }
 
