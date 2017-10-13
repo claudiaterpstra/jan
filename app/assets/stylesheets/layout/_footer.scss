@@ -1,7 +1,7 @@
 .footer {
   padding: 50px;
   color: #FAF7EE;
-  background-color: #232323;
+  background-color: #A2A7A5;
   text-align: center;
   z-index: 300;
 }
@@ -22,6 +22,16 @@
   text-align: left;
   font-size: 12px;
   margin: 1px;
+}
+
+.footer-details-mobile {
+  margin-bottom: 20px;
+  ul {
+  list-style-type: none;
+  text-align: left;
+  font-size: 12px;
+  margin: 1px;
+  }
 }
 
 .footer-icons i {
