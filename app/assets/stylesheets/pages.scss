@@ -213,9 +213,7 @@
 
 .agenda-card {
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
-  border-style: solid;
-  border-width: 0.5px;
-  border-color: lightgrey;
+
   padding-top: 20px;
   padding-bottom: 20px;
   margin: 40px 20px 40px 20px;
@@ -239,3 +237,16 @@
 .link {
   margin-top: 10px;
 }
+
+.datum-passed  {
+  opacity: 0.3;
+}
+
+.mobile-card {
+  margin-bottom: 50px;
+}
+
+.text-mobile {
+  margin-top: 20px;
+}
+
